@@ -1,0 +1,49 @@
+=================================================
+===================READ ME=======================
+=================================================
+*************************************************
+Contents:
+-------------------------------------------------
+1. How to build
+2. How to play
+3. How to remove
+4. Credit
+*************************************************
+How To Build
+-------------------------------------------------
+Open up terminal and change directory to the location
+of 'craps.cpp'. Enter the command 'make craps' to
+compile and build the executable. Proceed to run
+the executable, or type './craps' in terminal.
+*************************************************
+How to play
+-------------------------------------------------
+You start with a pot of $50. Enter your bid,
+within your pay-able range (0 to your pot) and
+hit ENTER. The 2 dice will be rolled. Your roll
+follows:
+2,3,12: You lose the roll.
+7,11: You win the roll.
+Otherwise your roll becomes your "point", and
+you continue to roll until you get your "point"
+or a 7. If you make your point, you win. If you
+roll a 7, you lose.
+
+If you win, you get your bid added to your total pot,
+if you lose your bid is removed from your pot.
+
+You will be then asked if you wish to play again.
+Type 'y' to play again, and proceed to enter a new
+bid again. Otherwise, press 'n' to cash out with your
+winnings.
+**************************************************
+How to remove
+--------------------------------------------------
+In terminal go to the directory that 'craps' is
+located. Type 'make clean' to remove all but
+source files.
+**************************************************
+Credits
+--------------------------------------------------
+Programmed by Andrew Hingst (5043535).
+**************************************************
